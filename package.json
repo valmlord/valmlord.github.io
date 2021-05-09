@@ -1,12 +1,13 @@
 {
-  "name": "pulse",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Main Portfolio Web Page",
   "main": "gulpfile.js",
+  "homepage": "https://valmlord.github.io",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
-  "author": "",
+  "author": "valmlord",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.14",
